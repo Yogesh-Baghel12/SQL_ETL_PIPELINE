@@ -11,4 +11,4 @@ create schema if not exists silver;
 GO
 create schema if not exists gold;
 
-Go 
+
