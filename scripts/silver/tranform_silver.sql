@@ -233,7 +233,7 @@ SET @End_time = GETDATE();
     END TRY
     BEGIN CATCH
         PRINT '=========================================================';
-        PRINT '>>> ERROR OCCURRED DURING LOADING BRONZE LAYER';
+        PRINT '>>> ERROR OCCURRED DURING LOADING SILVER LAYER';
         PRINT '>>> ERROR MESSAGE: ' + ERROR_MESSAGE();
         PRINT '=========================================================';
     END CATCH
